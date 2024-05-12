@@ -1,3 +1,9 @@
 #include "Item.h"
-Item::Item(int item_id, string item_name, item_type type) : item_id(item_id), item_name(item_name), type(type) {}
+Item::Item() {}
 
+Item::Item(Item_Data Data)
+{
+	item_id = Data.item_id;
+	item_name = Data.item_name;
+	type = Data.type;
+}

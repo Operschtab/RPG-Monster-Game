@@ -93,7 +93,7 @@ void fight_choose(Hero& hero_ptr, Monster& vik)                         // ме�
     cin >> temp_choose;
     switch (temp_choose)
     {
-    case 1: hero_ptr.attack(vik);                                       // атаковать монстра
+    case 1: hero_ptr.attack(vik);                                       // атаковать монстра    
         break;
     case 2: hero_ptr.defence();
         break;
